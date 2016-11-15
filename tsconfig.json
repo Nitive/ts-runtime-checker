@@ -1,0 +1,33 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "jsx": "react",
+    "lib": [
+      "dom",
+      "es2015.collection",
+      "es2015.promise",
+      "es2015",
+      "es2016",
+      "es5"
+    ],
+    "types": [
+      "node"
+    ],
+    "module": "commonjs",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "outDir": "ts-dist/",
+    "rootDir": "./",
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "target": "es2015"
+  },
+  "typeroots": [
+    "./node_modules/@types"
+  ],
+  "filesGlob": [
+    "./**/*.ts*"
+  ]
+}
