@@ -20,6 +20,7 @@
     "rootDir": "./src/",
     "sourceMap": true,
     "strictNullChecks": true,
+    "declaration": true,
     "target": "es5"
   },
   "typeroots": [
