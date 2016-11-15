@@ -1,6 +1,6 @@
 {
   "name": "ts-runtime-checker",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Utilities to check types in runtime via typescript compiler",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
