@@ -37,7 +37,9 @@ export function checkDataSatisfiedType(fileWithType: string, typeName: string, d
 
   const errors = result.map(diagnostic => {
     return getErrors(diagnostic.messageText)
-  })[0]
+  })
 
-  return errors.join('\n')
+  if (errors) {
+    throw new Error(errors[0].join('\n'))
+  }
 }
