@@ -2,10 +2,15 @@
   "name": "ts-runtime-checker",
   "version": "0.1.0",
   "description": "Utilities to check types in runtime via typescript compiler",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "tsc -p .",
+    "prepublish": "npm run build",
     "test": "jest"
   },
+  "files": [
+    "dist/"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Nitive/ts-runtime-checker.git"
@@ -21,5 +26,11 @@
   "bugs": {
     "url": "https://github.com/Nitive/ts-runtime-checker/issues"
   },
-  "homepage": "https://github.com/Nitive/ts-runtime-checker#readme"
+  "homepage": "https://github.com/Nitive/ts-runtime-checker#readme",
+  "dependencies": {
+    "typescript": "^2.0.9"
+  },
+  "devDependencies": {
+    "@types/node": "^6.0.47"
+  }
 }

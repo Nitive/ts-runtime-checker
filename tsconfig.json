@@ -1,9 +1,7 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "jsx": "react",
     "lib": [
-      "dom",
       "es2015.collection",
       "es2015.promise",
       "es2015",
@@ -18,11 +16,11 @@
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
-    "outDir": "ts-dist/",
-    "rootDir": "./",
+    "outDir": "./dist/",
+    "rootDir": "./src/",
     "sourceMap": true,
     "strictNullChecks": true,
-    "target": "es2015"
+    "target": "es5"
   },
   "typeroots": [
     "./node_modules/@types"

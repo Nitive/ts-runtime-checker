@@ -41,9 +41,3 @@ export function checkDataSatisfiedType(fileWithType: string, typeName: string, d
 
   return errors.join('\n')
 }
-
-const report = checkDataSatisfiedType('./test-interface.ts', 'Response', {
-  code: 404,
-})
-
-console.log(report)
