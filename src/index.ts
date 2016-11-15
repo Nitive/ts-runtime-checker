@@ -39,7 +39,7 @@ export function checkDataSatisfiedType(fileWithType: string, typeName: string, d
     return getErrors(diagnostic.messageText)
   })
 
-  if (errors) {
+  if (errors && errors[0]) {
     throw new Error(errors[0].join('\n'))
   }
 }
