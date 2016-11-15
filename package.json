@@ -1,0 +1,25 @@
+{
+  "name": "ts-runtime-checker",
+  "version": "0.1.0",
+  "description": "Utilities to check types in runtime via typescript compiler",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nitive/ts-runtime-checker.git"
+  },
+  "keywords": [
+    "typescript",
+    "runtime",
+    "check",
+    "types"
+  ],
+  "author": "Maxim Samoilov <nitive@icloud.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nitive/ts-runtime-checker/issues"
+  },
+  "homepage": "https://github.com/Nitive/ts-runtime-checker#readme"
+}
